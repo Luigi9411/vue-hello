@@ -6,7 +6,7 @@
 const app = new Vue({
      el:'#root',
      data:{
-        text:'mamma mia come sto!',
+        text:'mamma mia comme sto!',
         userImg:'ENZO.jpg',
      }
 });
