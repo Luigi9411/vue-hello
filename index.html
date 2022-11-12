@@ -13,15 +13,11 @@
 	<script src="js/script.js" defer></script>
 </head>
 <body>
-
 	<div id="root">
-		<label for="first-name">First Name</label>
-		<input type="text" id="first-name" v-model="firstName">
-
-		<label for="last-name">Last Name</label>
-		<input type="text" id="last-name" v-model="lastName">
-
-		<p>Ciao {{ firstName }} {{ lastName }} </p>
+		<h1 class="center">{{text}} </h1>
+        <div class="margin">
+            <img :src="userImg" alt="">
+        </div>
 	</div>
 </body>
 </html>
